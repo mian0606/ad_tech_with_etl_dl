@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.env
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+
+# Kafka
+/tmp/kafka-logs/
+
+# dbt
+target/
+dbt_packages/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# dotenv
+.env
+.env.*
